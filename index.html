@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hard Rock Legacy</title>
+    <title>Hard Rock Zone</title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
@@ -23,11 +23,18 @@
         </ul>
       </nav>
     </header>
-    <img class="separador" src="https://rockabilia.com/cdn/shop/collections/ACDC.jpg?v=1639381342" alt="acdc" />
+
+     
+
     <main class="main">
 
+      
+
       <section id="inicio">
-        <div>
+
+        <img class="banner" src="https://rockabilia.com/cdn/shop/collections/ACDC.jpg?v=1639381342" alt="acdc" />
+
+        <article>
           <h1>HARD ROCK</h1>
           <p>
             El Hard Rock, conocido en español como rock duro, tiene sus primeras
@@ -36,24 +43,20 @@
             distorsionadas, bajo y batería. El término hard rock se utiliza a
             menudo como término genérico para géneros como el punk y el grunge,
             a fin de distinguirlos del género de rock pop, más apto para la
-            radio.
-          </p>
-          <p>
+            radio. <br>
             El entorno del rock duro existe en asociación con otras formas de
             rock and roll como el rock de garaje, el rock psicodélico, el punk y
-            el grunge en la forma artística de la música rock and roll.
-          </p>
-          <p>
+            el grunge en la forma artística de la música rock and roll. <br>
             Hard rock es un término que se aplica frecuentemente a cualquier
             tipo de rock de guitarra fuerte y agresivo, aunque no tan pesado
             como el heavy metal, y muy rara vez está influenciado por el punk,
             aunque ayudó a inspirar al punk.
           </p>
-        </div>
+        </article>
       </section>
 
       <section id="origen">
-        <div>
+        <article>
           <h2>El origen del Hard Rock</h2>
           <p>
             Este tipo de rock surgió como un subgénero en la década de 1960. El
@@ -64,9 +67,7 @@
             tomó influencias de otros géneros populares. A medida que los grupos
             de rock británico empezaron a aparecer en masa, desencadenando lo
             que se llamaría la Invasión Británica, la distinción entre el rock
-            más suave y el rock más duro se hizo más evidente.
-          </p>
-          <p>
+            más suave y el rock más duro se hizo más evidente. <br>
             El hard rock surgió de los grupos británicos de finales de la década
             de 1960, como Black Sabbath y Led Zeppelin, que mezclaron la música
             de las primeras bandas de rock británico con una forma más dura de
@@ -74,11 +75,11 @@
             I (1969), es un buen ejemplo de blues rock que representa el
             comienzo del género de rock duro.
           </p>
-        </div>
+        </article>
       </section>
 
       <section id="caracteristicas">
-        <div>
+        <article>
           <h2>Características</h2>
           <p>
             El rock duro está fuertemente influenciado por la música blues; la
@@ -86,9 +87,7 @@
             escala típica de blues. El rock duro incorpora elementos del blues
             británico, un estilo de blues que se toca con instrumentos más
             modernos, como guitarras eléctricas, batería, teclados y bajo
-            eléctrico.
-          </p>
-          <p>
+            eléctrico. <br>
             El rock duro se aparta del blues tradicional al estar raramente
             restringido a los acordes I, IV y V que prevalecen en el blues de 12
             o 16 compases. Más bien, incluye otros acordes, típicamente acordes
@@ -98,12 +97,12 @@
             diferentes de guitarristas: el guitarrista principal y el
             guitarrista rítmico.
           </p>
-        </div>
+        </article>
       </section>
 
       <section id="bandas">
-        <div>
-          <h2>Bandas mas importantes</h2>
+        <div class="lista-bandas">
+          <h3>Bandas mas importantes</h3>
           <ul>
             <li>Black Sabbath</li>
             <li>Led Zeppelin</li>
@@ -125,8 +124,8 @@
       </section>
 
       <section id="albumes">
-        <div>
-          <h2>Albumes escenciales</h2>
+        <div class="lista-albumes">
+          <h3>Albumes escenciales</h3>
           <ul>
             <li>1970: Led Zeppelin, ‘III’</li>
             <li>1971: Led Zeppelin, ‘Led Zeppelin IV’</li>
@@ -153,30 +152,24 @@
         <h4>Contacto</h4>
         <p>Dejame tu mensaje!</p>
 
-        <form action="procesar_formulario.php" method="post">
-          <div>
+        <form class="formulario" action="procesar_formulario.php" method="post">
+
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required />
-          </div>
-
-          <div>
+            <br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required />
-          </div>
-
-          <div>
+            <br>
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-          </div>
-
-          <div>
+            <br>
             <input type="submit" value="Enviar" />
-          </div>
+
         </form>
       </div>
 
       <div>
-        <p>Copyright 2023.</p>
+        <p>HardRockZone. Copyright 2023.</p>
       </div>
     </footer>
   </body>

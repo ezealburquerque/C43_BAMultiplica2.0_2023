@@ -1,17 +1,12 @@
 body{
     background-color: #EDEDED;
     font-family: Verdana, Geneva, Tahoma, sans-serif;;
-    padding: 50px;
 }
 
 header {
     background-color: #444444;
 }
 
-.separador {
-    width: 100%;
-    height: auto;
-}
 
 nav a:link{
     color: #EDEDED;
@@ -27,6 +22,22 @@ nav a:hover {
 
 nav a:active {
     color: red;
+}
+
+.banner {
+    width: 100%
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    line-height: 1.5;
 }
 
 .footer {
